@@ -42,6 +42,24 @@ lo        16436   0        0      0      0      0        0      0      0      0 
 10.0.0.20       ec2-54-179-182-13.ap-southeast-1.compute.amazonaws.com
 [root@ip-10-0-0-20 ~]# getent hosts 10.0.0.20
 10.0.0.20       ip-10-0-0-20.ap-southeast-1.compute.internal
+
+[root@ip-10-0-0-20 ~]# nslookup ec2-54-179-182-13.ap-southeast-1.compute.amazonaws.com
+Server:         10.0.0.2
+Address:        10.0.0.2#53
+
+Non-authoritative answer:
+Name:   ec2-54-179-182-13.ap-southeast-1.compute.amazonaws.com
+Address: 10.0.0.20
+
+[root@ip-10-0-0-20 ~]# nslookup 10.0.0.20
+Server:         10.0.0.2
+Address:        10.0.0.2#53
+
+Non-authoritative answer:
+20.0.0.10.in-addr.arpa  name = ip-10-0-0-20.ap-southeast-1.compute.internal.
+
+Authoritative answers can be found from:
+
 ```
 ```
 7.Verify the nscd service is running
