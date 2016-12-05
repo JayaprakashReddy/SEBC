@@ -1,4 +1,5 @@
-```mysql> SHOW SLAVE STATUS \G
+```
+mysql> SHOW SLAVE STATUS \G
 *************************** 1. row ***************************
                Slave_IO_State: Waiting for master to send event
                   Master_Host: ec2-54-179-182-13.ap-southeast-1.compute.amazonaws.com
