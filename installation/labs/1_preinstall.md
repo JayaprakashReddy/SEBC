@@ -1,13 +1,13 @@
+```
 1. vm.swappiness
-
-```[root@ip-10-0-0-20 ~]# sysctl vm.swappiness
+[root@ip-10-0-0-20 ~]# sysctl vm.swappiness
 vm.swappiness = 60
 
 [root@ip-10-0-0-20 ~]# sudo sysctl -w vm.swappiness=1
 vm.swappiness = 1
 ```
-2.Show the mount attributes of all volumes
 ```
+2.Show the mount attributes of all volumes
 [root@ip-10-0-0-20 ~]# mount
 /dev/xvde on / type ext4 (rw)
 proc on /proc type proc (rw)
@@ -16,9 +16,8 @@ devpts on /dev/pts type devpts (rw,gid=5,mode=620)
 tmpfs on /dev/shm type tmpfs (rw,rootcontext="system_u:object_r:tmpfs_t:s0")
 none on /proc/sys/fs/binfmt_misc type binfmt_misc (rw)
 ```
-
-3.Show the reserve space of any non-root, ext-based volumes
 ```
+3.Show the reserve space of any non-root, ext-based volumes
 No non-rrot ext based volumes
 ```
 ```
