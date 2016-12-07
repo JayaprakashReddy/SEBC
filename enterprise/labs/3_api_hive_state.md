@@ -1,8 +1,6 @@
 ```
-
-```
 Starting hive serice
-curl -X POST  -u jayaprakashreddy:passw0rd 'http://ec2-52-221-230-106.ap-southeast-1.compute.amazonaws.com:7180/api/v2/clusters/JayaprakashReddy/services/hive/commands/start'
+
 {
   "id" : 430,
   "name" : "Start",
@@ -29,6 +27,8 @@ Stopppiing Hive service
   }
 }
 
+
+```
 
 ```
 Finding the hive service status
