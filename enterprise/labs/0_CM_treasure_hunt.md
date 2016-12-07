@@ -7,7 +7,6 @@ Form CM help it is---
 
 ```
 Where in CM is the Kerberos Security Realm value displayed?
-```
 Adminstration ->  Settings -> kerberos 
 Kerberos Security Realm = HADOOP.COM
 ```
