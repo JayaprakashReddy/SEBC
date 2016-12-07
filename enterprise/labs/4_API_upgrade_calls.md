@@ -31,8 +31,7 @@ List all users
     "roles" : [ "ROLE_CONFIGURATOR" ]
   } ]
 }
-
-``
+```
 
 ```
 Database used by CM
