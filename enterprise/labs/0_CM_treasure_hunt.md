@@ -20,7 +20,7 @@ zookeeper, YARN, HDFS
 How do you upgrade the CM agents?
 Steps to upgrade CM agents.
 1.Upgrade CM server
-2.Once the upgrdaded server is restarted , CM server Admin Console take throught the rest of the CM agents upgradation process
+2.Once the upgrdaded server is restarted , CM server Admin Console takes through the rest of the CM agents upgradation process
 ```
 
 ```
