@@ -36,3 +36,13 @@ repolist: 7,444
 ```
 
 ```
+[root@ip-10-0-0-107 ~]# grep 'orchard\|raffles' /etc/passwd
+orchard:x:2800:500::/home/orchard:/bin/bash
+raffles:x:2700:501::/home/raffles:/bin/bash
+
+
+[root@ip-10-0-0-107 ~]# grep 'shops\|walks' /etc/group
+shops:x:500:
+walks:x:501:
+
+```
