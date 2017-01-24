@@ -15,7 +15,7 @@ Kerberos Security Realm = HADOOP.COM
 Which CDH service(s) host a property for enabling Kerberos authentication?
 zookeeper, YARN, HDFS
 ```
-
+Look through each service -- you'll notice all of them have a Kerberos property setting.
 ```
 How do you upgrade the CM agents?
 Steps to upgrade CM agents.
@@ -39,3 +39,5 @@ What steps must be completed before integrating Cloudera Manager with Kerberos?
 4.Create the Kerberos principal for the Cloudera Manager Server
 5. Then use CM wizard to to enable Kerberos integration.
 ```
+* On a strictly technical point, LDAP isn't necessary to install Kerberos. Practically speaking, it's rather pointless not to have some kind of directory service, of course.
+* It's more important to note that the encryption type is negotiable among all realm principals.
