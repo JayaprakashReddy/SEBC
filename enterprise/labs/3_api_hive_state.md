@@ -86,3 +86,4 @@ Finding the hive service status
 }
 
 ```
+mfe: It is helpful as reference to have the full commands used with these inputs.
