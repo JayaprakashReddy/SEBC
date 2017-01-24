@@ -174,3 +174,4 @@ Found 10 items
 -rw-r--r--   1 raffles raffles  641642500 2016-12-09 03:29 /user/raffles/tgen512m.out/part-r-00007
 
 ```
+Eight partitions of output?
