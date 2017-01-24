@@ -8,3 +8,4 @@ hadoop fs -rmr /user/jayaprakashreddy/precious/
 hadoop fs -rmr /user/jayaprakashreddy/precious/SEBC-master.zip
 hadoop fs -cp /user/jayaprakashreddy/precious/.snapshot/sebc-hdfs-test/SEBC-master.zip /user/jayaprakashreddy/precious/
 ```
+I would like to have seen the output of each command.
