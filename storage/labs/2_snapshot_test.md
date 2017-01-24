@@ -1,4 +1,5 @@
-```su - hdfs
+```
+su - hdfs
 hdfs dfsadmin -allowSnapshot /user/jayaprakashreddy/precious/
 exit
 su - jayaprakashreddy
